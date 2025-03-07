@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import { View, TextInput, Button, Alert } from "react-native";
 import { TransactionContext } from "../context/transaction";
-
 export default function AddTransactionScreen({ navigation }) {
   const [location, setLocation] = useState("");
   const [type, setType] = useState("");
